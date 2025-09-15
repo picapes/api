@@ -1,0 +1,6 @@
+{
+  "serverIP":"127.0.0.1",
+  "serverURL":"http://127.0.0.1",
+  "OptiFine":"/capes/<ign>.png",
+  "CapeProvider":"/capeprovider/<ign>"
+}
