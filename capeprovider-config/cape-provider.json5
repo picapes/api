@@ -1,0 +1,33 @@
+{
+  "currentPreviewProviderId": "picapes_animated",
+  "activeProviderIds": [
+    "picapes_animated",
+    "picapes"
+  ],
+  "useDefaultProvider": true,
+  "onlyLoadForSelf": false,
+  "enableElytraTexture": true,
+  "animatedCapesHandling": "ON",
+  "customProviders": [
+    {
+      "id": "picapes",
+      "name": "PiCapes (Normal Cape)",
+      "uriTemplate": "http://192.168.10.12/capes/$name.png",
+      "animated": false,
+      "changeCapeUrl": "https://picapes.github.io",
+      "homepage": "https://picapes.github.io",
+      "rateLimitedReqPerSec": 3.0
+    },
+    {
+      "id": "picapes_animated",
+      "name": "PiCapes (Animated Cape)",
+      "uriTemplate": "http://192.168.10.12/capes/animated/$name.png",
+      "animated": true,
+      "changeCapeUrl": "https://picapes.github.io",
+      "homepage": "https://picapes.github.io",
+      "rateLimitedReqPerSec": 3.0
+    }
+  ],
+  "modProviderHandling": "ON",
+  "knownModProviderIdsFirstTimeMissing": {}
+}
